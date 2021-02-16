@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    width:100%;
+    height:50px;
+    font-size:30px;
+
+}
+.phone{
+     float:right;
+}
+.second{
+    width:100%;
+    height:80px;
+    background-color:gray
+}
+.second li a{
+    text-decoration: none;
+   float:left;
+}
+.second{
+    list-style:none;
+    text-align: center;
+}
+.second li{
+    width: 300px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 80px;
+}
+.main{
+    background-image:url("../../img/building.jpg");
+    background-size:cover;
+    min-height:150vh;
+}
+h1 {
+    display:inline;
+    font-size:100px;
+    border-bottom:1px solid ;
+    letter-spacing:30px;
+}
+h6{
+    font-size:20px;
+    letter-spacing:10px;
+}
+.title{
+    width:950px;
+    text-align: center;
+}
+.round{
+    width:350px;
+    height:350px;
+    border-radius:50%;
+    background-color:pink ;
+    position:relative;
+    position:absolute;
+
+}
+.inner{
+     
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  text-align: center;
+    font-size:40px;
+    letter-spacing:8px;
+}
+.image-container{
+    position: relative; 
+}
+.food{
+    left:200px; 
+    top:100px;
+    background-color: rgba(221, 192, 86, 0.74);
+}
+.sweets{
+    left: 500px; 
+    top:100px;
+    background-color: rgba(181, 144, 182, 0.74);
+}
+.drink{
+    left:800px; 
+    top:100px;
+    background-color:rgba(132, 192, 200, 0.74);
+}
